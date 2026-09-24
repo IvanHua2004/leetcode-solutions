@@ -5,6 +5,5 @@ class Solution:
         """
         
         for i in range(len(nums1)-n, len(nums1)):
-            print(nums2[i-(len(nums1)-n)])
             nums1[i] = nums2[i-(len(nums1)-n)]
         nums1[:] = sorted(nums1)
